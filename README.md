@@ -21,26 +21,11 @@ RAG is cool because it combines retrieval (finding the right documents) and gene
 | Google Colab    | Execution environment            |
 | GitHub          | Version control & project sharing|
 
+# Project Structure
 
-## cnn_dailymail_rag/
-├── data/              # Folder for raw & processed data (local if needed)
-│   ├── raw/            # Original dataset files
-│   ├── processed/      # Preprocessed (cleaned, tokenized, etc.)
-│
-├── notebooks/          # Optional (if we split work into multiple notebooks)
-│   ├── 1-data_exploration.ipynb
-│   ├── 2-data_preprocessing.ipynb
-│   ├── 3-rag_pipeline.ipynb
-│
-├── src/                 # Scripts (if you want to split some code later)
-│   ├── data_loading.py
-│   ├── preprocessing.py
-│   ├── retrieval.py
-│   ├── generation.py
-│
-├── README.md            # This file
-├── requirements.txt     # Libraries needed (if someone wants to run locally)
-├── .gitignore           # To avoid pushing unnecessary files
+The project follows a simple structure:
+
+cnn_dailymail_rag/ ├── README.md # Project description and guide ├── cnn_dailymail_rag.ipynb # Main Colab notebook (contains code + explanation) ├── requirements.txt # List of required libraries (optional) ├── .gitignore # Files to exclude from version control (optional)
 
 ## workflow steps
 
